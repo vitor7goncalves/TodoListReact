@@ -1,0 +1,118 @@
+.App {
+  width: 40%;
+  margin: 2em auto;
+  background-color: rgb(15, 15, 25);
+  border-radius: 5px;
+  border: 1px solid rgb(70, 70, 75);
+  color: rgb(140, 140, 150);
+}
+
+.todo-header {
+  padding: 0.5em;
+  border-bottom: 1px solid rgb(70, 70, 75);
+  text-align: center;
+}
+
+.todo-header h2 {
+  margin: 0;
+}
+
+.form-todo {
+  width: 100%;
+  padding: 1em 0;
+  border-bottom: 1px solid rgb(70, 70, 75);
+}
+
+.form-todo * {
+  margin: 0 .3em;
+}
+
+.form-todo h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-control label {
+  font-weight: bold;
+  font-size: .7em;
+  margin-bottom: .4em;
+}
+
+.form-control input {
+  border: 1px solid rgb(70, 70, 75);
+  color: rgb(140, 140, 150);
+  border-radius: 2px;
+  background-color: rgb(20, 20, 40);
+  width: 95%;
+  padding: .5em;
+}
+
+input[type="submit"] {
+  display: block;
+  background-color: rgb(20, 20, 40);
+  color: rgb(140, 140, 150);
+  width: 95%;
+  border: 1px solid rgb(70, 70, 75);
+  border-radius: 5px;
+  padding: 1em;
+  margin: 0 1em;
+  cursor: pointer;
+}
+
+.list-todo {
+  padding: 0 1em 2em;
+  margin: 1em 2em;
+}
+
+.list-todo h3 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.list-todo h5 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.avise {
+  color: rgb(170, 70, 70);
+  margin: 0 1em 1em 1em;
+}
+
+.list-todo p {
+  text-align: center;
+}
+
+.todo {
+  border-bottom: 1px solid rgb(70, 70, 75);
+  padding: 1em 0;
+  text-align: end;
+}
+
+.todo-done {
+  color: green;
+}
+
+.todo p {
+  text-align: left;
+  font-style: italic;
+  font-size: .7em;
+  margin-bottom: 1.5em;
+}
+
+.todo svg {
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-right: 1em;
+  transition: .5s;
+}
+
+.todo svg :hover {
+  color: rgb(100, 100, 150);
+}

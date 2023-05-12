@@ -1,0 +1,10 @@
+html {
+  background-color: rgb(10, 10, 20);
+  color: rgb(200, 200, 210);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family:  Haettenschweiler;
+}
